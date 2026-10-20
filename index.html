@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casa de Lina · Decoración bohemia en Ciudad Juárez</title>
+<meta name="description" content="Lámparas, sillones, mesas y decoración bohemia para tu casa en Ciudad Juárez.">
+<meta property="og:title" content="Casa de Lina · Decoración bohemia"><meta property="og:image" content="img/perfil.jpg">
+<link rel="icon" href="img/perfil.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f7efe3;--sand:#ead9c2;--terra:#b8613f;--rattan:#c79a5b;--brown:#5a3e2b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Josefin Sans',sans-serif;font-weight:300;background:var(--cream);color:var(--brown);line-height:1.7}
+h1,h2{font-family:'Great Vibes',cursive;font-weight:400;color:var(--terra)}
+h2{font-size:3rem;text-align:center;margin-bottom:1rem}
+nav{position:sticky;top:0;background:rgba(247,239,227,.95);display:flex;justify-content:space-between;align-items:center;padding:.6rem 6%;z-index:9;border-bottom:1px solid var(--sand)}
+nav img{height:52px;border-radius:50%}
+nav a{color:var(--brown);text-decoration:none;margin-left:1.3rem;letter-spacing:.12em;font-size:.85rem;text-transform:uppercase}
+.hero{position:relative;min-height:78vh;background:url(img/portada.jpg) center/cover;display:flex;align-items:flex-end;justify-content:center}
+.hero .box{background:rgba(247,239,227,.9);margin:0 1rem 3rem;padding:1.5rem 2.5rem;border-radius:18px;text-align:center}
+.hero h1{font-size:4rem;line-height:1.1}
+.hero p{letter-spacing:.2em;text-transform:uppercase;font-size:.9rem}
+section{padding:5rem 8%}
+.historia{display:grid;grid-template-columns:1fr 1.3fr;gap:3rem;align-items:center;max-width:1100px;margin:auto}
+.historia img{width:100%;border-radius:50%;box-shadow:0 10px 30px rgba(90,62,43,.15)}
+.historia h2{text-align:left}
+.historia p{margin-bottom:1rem;font-size:1.1rem}
+.cats{background:var(--sand)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;max-width:1100px;margin:2rem auto 0}
+.card{background:var(--cream);border-radius:200px 200px 16px 16px;padding:2.5rem 1.2rem;text-align:center;border:1px solid var(--rattan)}
+.card .i{font-size:2.4rem}.card h3{font-weight:400;letter-spacing:.12em;text-transform:uppercase;margin:.6rem 0}
+.pronto{text-align:center;margin-top:2rem;font-style:italic}
+.contacto{text-align:center}
+.btn{display:inline-block;margin:.5rem;padding:.9rem 2rem;border-radius:40px;text-decoration:none;letter-spacing:.1em;font-weight:400}
+.wa{background:var(--terra);color:#fff}.fb{border:1px solid var(--terra);color:var(--terra)}
+footer{text-align:center;padding:2rem;font-size:.85rem;background:var(--brown);color:var(--cream)}
+@media(max-width:800px){.historia{grid-template-columns:1fr}.historia img{max-width:280px;margin:auto;display:block}.historia h2{text-align:center}.grid{grid-template-columns:1fr 1fr}.hero h1{font-size:3rem}nav a{margin-left:.7rem;font-size:.7rem}h2{font-size:2.5rem}section{padding:3.5rem 6%}.hero{min-height:60vh}}
+</style>
+</head>
+<body>
+<nav><a href="#"><img src="img/perfil.jpg" alt="Casa de Lina"></a><div><a href="#historia">Historia</a><a href="#productos">Productos</a><a href="#contacto">Contacto</a></div></nav>
+<header class="hero"><div class="box"><h1>Casa de Lina</h1><p>Decoración bohemia para tu hogar</p></div></header>
+<section id="historia"><div class="historia">
+<img src="img/logo.jpg" alt="Lina dormida en su sillón de ratán">
+<div><h2>Nuestra historia</h2>
+<p>Lina es nuestra gatita calicó, y tiene un gusto muy especial: solo se sube a muebles bonitos y bohemios. 🐱</p>
+<p>Por ella nació Casa de Lina, un negocio familiar para llevar a tu casa piezas boho con calidez y alma, de esas que hasta Lina aprobaría.</p>
+<p>Y no trabaja sola: Luna, nuestra pug, es su hermana y ayudante. 🐶</p></div></div></section>
+<section id="productos" class="cats"><h2>Lo que encontrarás</h2>
+<div class="grid">
+<div class="card"><div class="i">🪔</div><h3>Lámparas</h3><p>Luz cálida con estilo boho.</p></div>
+<div class="card"><div class="i">🛋️</div><h3>Sillones</h3><p>Para descansar como Lina.</p></div>
+<div class="card"><div class="i">🪵</div><h3>Mesas</h3><p>Piezas naturales para tu espacio.</p></div>
+<div class="card"><div class="i">🌾</div><h3>Decoración</h3><p>Todo lo boho para tu casa.</p></div>
+</div><p class="pronto">Próximamente fotos de nuestras piezas.</p></section>
+<section id="contacto" class="contacto"><h2>Contáctanos</h2>
+<p>Estamos en Ciudad Juárez. Escríbenos para preguntar por nuestras piezas.</p><br>
+<a class="btn wa" href="https://wa.me/526564503565" target="_blank" rel="noopener">WhatsApp 656 450 3565</a>
+<a class="btn fb" href="https://www.facebook.com/profile.php?id=61576386087200" target="_blank" rel="noopener">Facebook</a></section>
+<footer>© 2026 Casa de Lina · Ciudad Juárez · Con cariño, Lina y Luna 🐾</footer>
+</body></html>
